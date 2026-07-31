@@ -235,62 +235,62 @@ int32_t fxls8971cf_wake_odr_get(stmdev_ctx_t *ctx, fxls8971cf_odr_t *odr)
       *odr = FXLS8971CF_ODR_3200HZ;
       break;
 
-    case 0x10:
+    case 0x01:
 
       *odr = FXLS8971CF_ODR_1600HZ;
       break;
 
-    case 0x20:
+    case 0x02:
 
       *odr = FXLS8971CF_ODR_800HZ;
       break;
 
-    case 0x30:
+    case 0x03:
 
       *odr = FXLS8971CF_ODR_400HZ;
       break;
 
-    case 0x40:
+    case 0x04:
 
       *odr = FXLS8971CF_ODR_200HZ;
       break;
 
-    case 0x50:
+    case 0x05:
 
       *odr = FXLS8971CF_ODR_100HZ;
       break;
 
-    case 0x60:
+    case 0x06:
 
       *odr = FXLS8971CF_ODR_50HZ;
       break;
 
-    case 0x70:
+    case 0x07:
 
       *odr = FXLS8971CF_ODR_25HZ;
       break;
 
-    case 0x80:
+    case 0x08:
 
       *odr = FXLS8971CF_ODR_12_5HZ;
       break;
 
-    case 0x90:
+    case 0x09:
 
       *odr = FXLS8971CF_ODR_6_25HZ;
       break;
 
-    case 0xA0:
+    case 0x0A:
 
       *odr = FXLS8971CF_ODR_3_125HZ;
       break;
 
-    case 0xB0:
+    case 0x0B:
 
       *odr = FXLS8971CF_ODR_1_563HZ;
       break;
 
-    case 0xC0:
+    case 0x0C:
 
       *odr = FXLS8971CF_ODR_0_781HZ;
       break;
