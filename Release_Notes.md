@@ -30,7 +30,19 @@ This directory contains the FXLS8971CF component drivers.
 # Update history
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section2" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<label for="collapse-section3" aria-hidden="true">V1.0.2 / 03-Aug-2026</label>
+<div>
+
+## Main changes
+
+- Removed wrong driver files
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section2" aria-hidden="true">
 <label for="collapse-section2" aria-hidden="true">V1.0.1 / 31-July-2026</label>
 <div>
 
